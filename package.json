@@ -1,0 +1,37 @@
+{
+  "devDependencies": {
+    "expect": "^24.1.0",
+    "lodash": "^4.17.11",
+    "typescript": "^3.3.3"
+  },
+  "name": "@spacet.me/chain",
+  "description": "Like `_.chain` but only contains `thru` and `value` methods. Comes with TypeScript typings.",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "dependencies": {},
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtinth/chain.git"
+  },
+  "keywords": [
+    "lodash",
+    "chain",
+    "fp",
+    "functional programming",
+    "pipeline",
+    "thru"
+  ],
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtinth/chain/issues"
+  },
+  "homepage": "https://github.com/dtinth/chain#readme",
+  "files": [
+    "lib"
+  ]
+}
