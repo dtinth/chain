@@ -1,17 +1,8 @@
 {
+  "extends": "./tsconfig-base.json",
   "compilerOptions": {
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "target": "es5",
-    "strict": true,
-    "sourceMap": true,
-    "rootDir": "src",
-    "outDir": "lib",
-    "declaration": true,
-    "skipLibCheck": true,
-    "lib": ["es5"],
-    "esModuleInterop": true
-  },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+    "types": [
+      "heft-jest"
+    ]
+  }
 }

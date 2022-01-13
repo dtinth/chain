@@ -1,17 +1,20 @@
 {
   "devDependencies": {
-    "expect": "^24.1.0",
+    "@rushstack/heft": "0.44.2",
+    "@rushstack/heft-web-rig": "0.7.2",
+    "@types/heft-jest": "1.0.2",
     "lodash": "^4.17.11",
-    "typescript": "^3.3.3"
+    "release-it": "14.12.1"
   },
   "name": "@spacet.me/chain",
   "description": "Like `_.chain` but only contains `thru` and `value` methods. Comes with TypeScript typings.",
   "version": "1.0.0",
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
-  "dependencies": {},
+  "main": "./lib-commonjs/index.js",
   "scripts": {
-    "prepare": "tsc"
+    "prepare": "heft build",
+    "build": "heft build",
+    "test": "heft test",
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
@@ -32,6 +35,11 @@
   },
   "homepage": "https://github.com/dtinth/chain#readme",
   "files": [
-    "lib"
-  ]
+    "src",
+    "lib",
+    "lib-commonjs",
+    "dist"
+  ],
+  "module": "./lib/index.js",
+  "types": "./dist/chain.d.ts"
 }
