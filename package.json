@@ -2,9 +2,11 @@
   "devDependencies": {
     "@rushstack/heft": "0.44.2",
     "@rushstack/heft-web-rig": "0.7.2",
+    "@spacet.me/news-fragments": "1.15.2-1",
     "@types/heft-jest": "1.0.2",
     "lodash": "^4.17.11",
-    "release-it": "14.12.1"
+    "prettier": "2.5.1",
+    "release-it": "15.0.0-esm.3"
   },
   "name": "@spacet.me/chain",
   "description": "Like `_.chain` but only contains `thru` and `value` methods. Comes with TypeScript typings.",
