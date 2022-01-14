@@ -1,0 +1,9 @@
+= @spacet.me/chain
+
+Like https://lodash.com/docs/4.17.11#chain[`_.chain()`] but the wrapper contains only the https://lodash.com/docs/4.17.11#thru[`thru(interceptor)`] and https://lodash.com/docs/4.17.11#prototype-value[`value()`] methods.
+
+- **Familiar interface but without the bloat.** It has same interface as https://lodash.com/docs/4.17.11#chain[`_.chain()`], so if you know Lo-dash, you know how to use this.
+
+- **TypeScript-compatible** — it comes with type definitions out-of-the-box.
+
+- **Totally unopinionated** — can be used with lodash/fp, Ramda, Rameda, etc.

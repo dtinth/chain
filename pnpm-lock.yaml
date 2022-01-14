@@ -1,19 +1,23 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@microsoft/api-documenter': 7.14.1
   '@rushstack/heft': 0.44.2
   '@rushstack/heft-web-rig': 0.7.2
   '@spacet.me/news-fragments': 1.15.2-1
   '@types/heft-jest': 1.0.2
+  api-documenter-yaml-to-antora-asciidoc: 0.0.0-11
   lodash: ^4.17.11
   prettier: 2.5.1
   release-it: 15.0.0-esm.3
 
 devDependencies:
+  '@microsoft/api-documenter': 7.14.1
   '@rushstack/heft': 0.44.2
   '@rushstack/heft-web-rig': 0.7.2_@rushstack+heft@0.44.2
   '@spacet.me/news-fragments': 1.15.2-1
   '@types/heft-jest': 1.0.2
+  api-documenter-yaml-to-antora-asciidoc: 0.0.0-11
   lodash: 4.17.21
   prettier: 2.5.1
   release-it: 15.0.0-esm.3
@@ -610,6 +614,19 @@ packages:
       '@types/node': 16.11.7
       '@types/yargs': 16.0.4
       chalk: 4.1.2
+    dev: true
+
+  /@microsoft/api-documenter/7.14.1:
+    resolution: {integrity: sha512-IFwS3TzVxFh9LSGJuYOWiZ5V+AdYfnLE+WC/VKpeHnSsiW1goLEO+qkoqonvirJr/jQTNuC7NScIjXS2pXODMQ==}
+    hasBin: true
+    dependencies:
+      '@microsoft/api-extractor-model': 7.15.3
+      '@microsoft/tsdoc': 0.13.2
+      '@rushstack/node-core-library': 3.45.0
+      '@rushstack/ts-command-line': 4.10.6
+      colors: 1.2.5
+      js-yaml: 3.13.1
+      resolve: 1.17.0
     dev: true
 
   /@microsoft/api-extractor-model/7.15.3:
@@ -1461,6 +1478,17 @@ packages:
     dependencies:
       normalize-path: 3.0.0
       picomatch: 2.3.0
+    dev: true
+
+  /api-documenter-yaml-to-antora-asciidoc/0.0.0-11:
+    resolution: {integrity: sha512-NMjDRr0VFGxqimTuu0A1jrWhCl5hC9uQ4uN2RNNqde7q+cEYtGamAUqrvYyvksA8kDAPF9mfX0O3vd467Vb7Yw==}
+    hasBin: true
+    dependencies:
+      '@rushstack/ts-command-line': 4.10.6
+      glob: 7.2.0
+      js-yaml: 4.1.0
+      make-promises-safe: 5.1.0
+      mkdirp: 1.0.4
     dev: true
 
   /aproba/1.2.0:
@@ -5221,6 +5249,14 @@ packages:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: true
 
+  /js-yaml/3.13.1:
+    resolution: {integrity: sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==}
+    hasBin: true
+    dependencies:
+      argparse: 1.0.10
+      esprima: 4.0.1
+    dev: true
+
   /js-yaml/3.14.1:
     resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==}
     hasBin: true
@@ -5563,6 +5599,10 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       semver: 6.3.0
+    dev: true
+
+  /make-promises-safe/5.1.0:
+    resolution: {integrity: sha512-AfdZ49rtyhQR/6cqVKGoH7y4ql7XkS5HJI1lZm0/5N6CQosy1eYbBJ/qbhkKHzo17UH7M918Bysf6XB9f3kS1g==}
     dev: true
 
   /makeerror/1.0.11:
