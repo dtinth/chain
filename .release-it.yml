@@ -8,5 +8,5 @@ github:
   release: true
 
 plugins:
-  news-fragments:
+  '@spacet.me/news-fragments':
     fragmentsFolder: changes
