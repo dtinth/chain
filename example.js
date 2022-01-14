@@ -100,7 +100,7 @@ const input = [
   { time: 1486399032207, reading: 462 },
   { time: 1501990543593, reading: 944 },
   { time: 1525209752479, reading: 605 },
-  { time: 1542059237224, reading: 918 }
+  { time: 1542059237224, reading: 918 },
 ]
 
 const groupBy = require('lodash/groupBy')
@@ -110,8 +110,8 @@ const sortBy = require('lodash/sortBy')
 
 console.log(
   chain(input)
-    .thru(Φ => groupBy(Φ, r => new Date(r.time).getUTCDay()))
-    .thru(Φ => map(Φ, (φ, key) => ({ x: +key, y: sumBy(φ, 'reading') })))
-    .thru(Φ => sortBy(Φ, 'x'))
-    .value()
+    .thru((Φ) => groupBy(Φ, (r) => new Date(r.time).getUTCDay()))
+    .thru((Φ) => map(Φ, (φ, key) => ({ x: +key, y: sumBy(φ, 'reading') })))
+    .thru((Φ) => sortBy(Φ, 'x'))
+    .value(),
 )
