@@ -12,6 +12,10 @@ and [`value()`](https://lodash.com/docs/4.17.11#prototype-value) methods.
 
 - **Totally unopinionated** — can be used with lodash/fp, Ramda, Rameda, etc.
 
+For more information, check out the [project documention page](https://docs.dt.in.th/chain/index.html).
+
+[![Project documention page](https://ss.dt.in.th/api/screenshots/docs-chain__index.png)](https://docs.dt.in.th/chain/index.html)
+
 ## API
 
 ```js
