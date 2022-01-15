@@ -5,3 +5,4 @@ node_modules
 .heft
 temp
 tmp
+.DS_Store

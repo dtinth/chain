@@ -15,7 +15,7 @@
   "version": "2.0.1",
   "main": "./lib-commonjs/index.js",
   "scripts": {
-    "prepare": "heft build",
+    "prepare": "heft build && ./scripts/generate-api-docs",
     "build": "heft build",
     "test": "heft test",
     "release": "release-it",
@@ -47,5 +47,6 @@
     "dist"
   ],
   "module": "./lib/index.js",
-  "types": "./dist/chain.d.ts"
+  "types": "./dist/chain.d.ts",
+  "docModel": "./dist/chain.api.json"
 }
