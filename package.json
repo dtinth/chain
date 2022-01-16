@@ -12,7 +12,7 @@
   },
   "name": "@spacet.me/chain",
   "description": "Like `_.chain` but only contains `thru` and `value` methods. Comes with TypeScript typings.",
-  "version": "2.0.2-0",
+  "version": "2.0.2",
   "main": "./lib-commonjs/index.js",
   "scripts": {
     "prepare": "heft build && ./scripts/generate-api-docs",

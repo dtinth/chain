@@ -1,4 +1,15 @@
 
+[//]: # (s-2.0.2)
+  
+# [2.0.2] - (2022-01-17)
+
+## Misc
+* Updated build toolchain and tests.
+* Move API reference to apiref.page.
+
+[//]: # (e-2.0.2)
+
+
 [//]: # (s-2.0.2-0)
   
 # [2.0.2-0] - (2022-01-15)
