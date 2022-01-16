@@ -9,5 +9,4 @@ github:
   release: true
 
 plugins:
-  '@spacet.me/news-fragments':
-    fragmentsFolder: changes
+  '@spacet.me/news-fragments': {}
