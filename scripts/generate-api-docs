@@ -10,5 +10,3 @@ for I in temp/api/*.json; do
 done
 
 cp temp/api/*.json dist/
-api-documenter yaml -i temp/api -o temp/api-yaml
-api-documenter-yaml-to-antora-asciidoc asciidoc -i temp/api-yaml

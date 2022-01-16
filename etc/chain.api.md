@@ -6,18 +6,15 @@
 
 // @public
 export class Chain<T> {
+    // @internal
     constructor(__wrapped__: T);
     thru<U>(interceptor: (value: T) => U): Chain<U>;
-    // (undocumented)
     toJSON(): T;
     value(): T;
-    // (undocumented)
     valueOf(): T;
 }
 
 // @public
 export function chain<T>(value: T): Chain<T>;
-
-// (No @packageDocumentation comment for this package)
 
 ```
