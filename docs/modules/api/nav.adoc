@@ -1,3 +1,0 @@
-.API documentation
-* xref:spacet_me_chain.adoc[@spacet.me/chain]
-** xref:spacet_me_chain_Chain_class.adoc[Chain]

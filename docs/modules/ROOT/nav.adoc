@@ -1,1 +1,2 @@
 * xref:index.adoc[]
+* https://apiref.page/package/@spacet.me/chain[API reference]

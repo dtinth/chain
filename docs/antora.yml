@@ -3,4 +3,3 @@ version: master
 title: '@spacet.me/chain'
 nav:
   - modules/ROOT/nav.adoc
-  - modules/api/nav.adoc
