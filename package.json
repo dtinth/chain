@@ -1,14 +1,11 @@
 {
   "devDependencies": {
+    "@changesets/cli": "2.20.0",
     "@rushstack/heft": "0.44.2",
-    "@rushstack/heft-web-rig": "0.7.2",
-    "@spacet.me/news-fragments": "1.15.2-1",
+    "@rushstack/heft-web-rig": "0.8.2",
     "@types/heft-jest": "1.0.2",
-    "lodash": "^4.17.11",
-    "prettier": "2.5.1",
-    "release-it": "15.0.0-esm.3",
-    "@microsoft/api-documenter": "7.14.1",
-    "api-documenter-yaml-to-antora-asciidoc": "0.0.0-11"
+    "lodash": "^4.17.21",
+    "prettier": "2.5.1"
   },
   "name": "@spacet.me/chain",
   "description": "Like `_.chain` but only contains `thru` and `value` methods. Comes with TypeScript typings.",
@@ -18,7 +15,7 @@
     "prepare": "heft build && ./scripts/generate-api-docs",
     "build": "heft build",
     "test": "heft test",
-    "release": "release-it",
+    "release": "./scripts/release",
     "format": "prettier --write .",
     "api": "./scripts/generate-api-docs"
   },
