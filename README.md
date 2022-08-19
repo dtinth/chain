@@ -16,6 +16,12 @@ For more information, check out the [project documention page](https://docs.dt.i
 
 [![Project documention page](https://ss.dt.in.th/api/screenshots/docs-chain__index.png)](https://docs.dt.in.th/chain/index.html)
 
+## API reference
+
+<https://apiref.page/package/@spacet.me/chain>
+
+![API reference screenshot](https://ss.dt.in.th/api/screenshots/apiref-spacet.me-chain.png)
+
 ## API
 
 ```js
