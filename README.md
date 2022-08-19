@@ -20,7 +20,7 @@ For more information, check out the [project documention page](https://docs.dt.i
 
 <https://apiref.page/package/@spacet.me/chain>
 
-![API reference screenshot](https://ss.dt.in.th/api/screenshots/apiref-spacet.me-chain.png)
+[![API reference screenshot](https://ss.dt.in.th/api/screenshots/apiref-spacet.me-chain.png)](https://apiref.page/package/@spacet.me/chain)
 
 ## API
 
